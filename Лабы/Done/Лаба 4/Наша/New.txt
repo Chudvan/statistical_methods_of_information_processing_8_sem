@@ -1,0 +1,6 @@
+numpy.asmatrix - преобразование итерируемого в matrix - https://pyprog.pro/array_manipulation/asmatrix.html
+pow() - возведение в степень - https://docs-python.ru/tutorial/vstroennye-funktsii-interpretatora-python/funktsija-pow/
+приоритет операторов: *, / - одинаковый приоритет - https://pythonru.com/uroki/29-prioritetnost-i-associativnost-operatorov-dlja-nachinajushhih
+---
+Скачать один файл с github - скопировать исходный код файла и создать текстовый - Скачивание отдельного файла (текстовой) - http://blog.harrix.org/article/933#h2_2
+

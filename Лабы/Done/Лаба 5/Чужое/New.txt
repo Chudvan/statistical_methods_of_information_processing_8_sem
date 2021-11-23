@@ -1,0 +1,28 @@
+from scipy.stats import rv_continuous - класс родитель для непрерывных СВ - https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.rv_continuous.html#scipy.stats.rv_continuous
+	pdf == Probability density function. - функция плотности вероятности - https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.norm.html#scipy.stats.norm
+	rvs - создать СВ с параметрами, которые передаём в pdf (кроме x) - 
+		https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.rv_continuous.rvs.html#scipy.stats.rv_continuous.rvs
+		https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.rv_continuous.pdf.html
+scipy.integrate.quad - вычислить определённый интеграл - https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.quad.html
+Распределение Гаусса == нормальное рааспределение - https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5
+%matplotlib inline - рисовать график под ячейкой - https://stackoverflow.com/questions/43027980/purpose-of-matplotlib-inline
+plot(y) -  # plot y using x as index array 0..N-1 - https://matplotlib.org/3.1.3/api/_as_gen/matplotlib.pyplot.plot.html
+grid() - нарисовать сетку на графике - https://matplotlib.org/3.1.0/api/_as_gen/matplotlib.pyplot.grid.html
+
+Sympy:
+	N(), .n(), .evalf() - преобразование в десятичное число - 
+		https://docs.sympy.org/latest/modules/core.html?highlight=sympy%20core%20add%20add#n
+		https://docs.sympy.org/latest/modules/evalf.html
+	Symbol - как задать нескольько переменных для функции (все с новой строки) - https://stackoverflow.com/questions/32930284/how-to-substitute-multiple-symbols-in-an-expression-in-sympy
+	integrate(f, (x, a, b)) - посчитать определённый интеграл от f - https://docs.sympy.org/latest/modules/integrals/integrals.html
+	exp - экспонента, в которую можно засовывать Symbol'ы
+
+Numpy:
+	np.vstack - соединяет массивы по вертикали. - https://pyprog.pro/array_manipulation/vstack.html
+	np.ravel - сжатый до одной оси массив - https://pyprog.pro/array_manipulation/ravel.html
+	np.matrix(c)[:, 0] - в [] 1-й аргумент - срез по строкам, 2-й - срез по столбцам
+	
+Matplotlib:
+	plt.rcParams['figure.figsize'] - изменить размеры графика - https://stackoverflow.com/questions/332289/how-do-you-change-the-size-of-figures-drawn-with-matplotlib
+	plt.figure(n) - чтобы рисовать несколько графиков (n - индекс) - https://www.geeksforgeeks.org/matplotlib-pyplot-figure-in-python/
+

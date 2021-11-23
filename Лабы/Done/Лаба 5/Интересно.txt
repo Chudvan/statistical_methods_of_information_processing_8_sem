@@ -1,0 +1,2 @@
+NumPy - Краткое руководство - https://pyprog.pro/short_guide.html
+
